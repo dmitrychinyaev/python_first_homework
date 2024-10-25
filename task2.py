@@ -1,9 +1,9 @@
-FIRST_POINT_X = int(input("Введите координату Х первой точки: "))
-FIRST_POINT_Y = int(input("Введите координату Y первой точки: "))
+first_point_x= int(input("Введите координату Х первой точки: "))
+first_point_y = int(input("Введите координату Y первой точки: "))
 
-SECOND_POINT_X = int(input("Введите координату Х второй точки: "))
-SECOND_POINT_Y = int(input("Введите координату Y второй точки: "))
+second_point_x = int(input("Введите координату Х второй точки: "))
+second_point_y = int(input("Введите координату Y второй точки: "))
 
-result = ((FIRST_POINT_X - SECOND_POINT_X)**2 + (SECOND_POINT_X - SECOND_POINT_Y)**2)**0.5
+result = ((first_point_x - first_point_y)**2 + (second_point_x - second_point_y)**2)**0.5
 
 print(result)

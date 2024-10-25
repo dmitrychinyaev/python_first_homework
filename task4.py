@@ -1,4 +1,5 @@
-number = int(input("Введите число:"))
+number = int(input("Введите число:").replace(".", ""))
+
 result = 0
 while(number > 0):
     ostatok = number % 10
